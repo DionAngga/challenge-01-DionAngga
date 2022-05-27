@@ -23,7 +23,7 @@ const firstUser = {
         },
         {
             name: 'SMA 03',
-            city: 'Jakarta',
+            city: 'Tangerang',
             graduate: 0
         }
     ],
@@ -35,12 +35,12 @@ const firstUser = {
 const secondUser = {
     name: 'Wendy',
     gender: 'Male',
-    age: 17,
-    email: 'Wendy@dingdong.com',
+    age: 23,
+    email: 'wendy@dingdong.com',
     favoriteColor:[
         'Blue', 'Black', 'Grey'
     ],
-    isHavePet: true,
+    isHavePet: false,
     education: [
         {
             name: 'SD 02',
