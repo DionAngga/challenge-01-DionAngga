@@ -64,11 +64,14 @@ const secondUser = {
         }
     ],
     favoriteRestaurant: [
-        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'
+        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
     ]
 };
 // TODO: Masukkan hasil akhir dari kedua user di sini
+
 const users = [firstUser, secondUser];
+console.log(users.length);
+console.log(users.size);
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
     console.log(users.length || users.size);
