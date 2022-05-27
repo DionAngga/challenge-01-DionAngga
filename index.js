@@ -64,7 +64,7 @@ const secondUser = {
         }
     ],
     favoriteRestaurant: [
-        'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Eggy'
+        'Tempura', 'Bento', 'Sushi', 'Padang', 'Katsu', 'Geprek', 'Eggy', 'Pancake'
     ]
 };
 // TODO: Masukkan hasil akhir dari kedua user di sini
