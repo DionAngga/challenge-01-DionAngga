@@ -19,13 +19,13 @@ const firstUser = {
         {
             name: 'SMP 02',
             city: 'Jakarta',
-            graduate: 2016,
+            graduate: 2019,
         },
         {
             name: 'SMA 03',
             city: 'Jakarta',
-            graduate: ''
-        },
+            graduate: 0
+        }
     ],
     favoriteRestaurant: [
         'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'
@@ -59,8 +59,9 @@ const secondUser = {
         },
         {
             name: 'Universitas Maju',
-            city: 'Tangerang'
-        },
+            city: 'Tangerang',
+            graduate: 0
+        }
     ],
     favoriteRestaurant: [
         'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'
@@ -68,7 +69,7 @@ const secondUser = {
 };
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
-
+console.log(users.length);
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
     console.log(users.length || users.size);
